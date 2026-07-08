@@ -108,3 +108,4 @@ The entire application is a single Python file (`main.py`) with three main compo
 ## Compatibility
 
 Tested on Windows 10 22H2 and Windows 11 23H2 with Python 3.11 and 3.12. Uses only cross-platform APIs from psutil, though the UI and build tooling target Windows specifically.
+
