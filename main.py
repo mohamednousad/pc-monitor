@@ -337,9 +337,9 @@ class MiniGraph(ctk.CTkFrame):
 
     def set_data(self, data_deque):
         self._data = data_deque
-        self._draw()
+        self._render()
 
-    def _draw(self):
+    def _render(self):
         c = self._canvas
         c.configure(bg=self._get_bg())
         c.delete("all")
